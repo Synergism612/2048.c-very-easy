@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <conio.h>
-#include <string.h>
 
 int game[4][4]; // 游戏核心
 int copy[4][4]; // 拷贝数组
@@ -18,6 +17,7 @@ void win();
 
 int main(int argc, char const *argv[])
 {
+  random();
   random();
   draw();
 
